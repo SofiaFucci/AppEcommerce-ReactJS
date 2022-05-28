@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+background-color: blanchedalmond ;
+
+}
+h1 {
+font-weight: 400;
+text-align: center;
+padding: 5%;
 }
 
 code {
