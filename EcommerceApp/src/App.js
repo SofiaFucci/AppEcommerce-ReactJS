@@ -1,8 +1,11 @@
 import Navbar from "./componentes/Navbar"
-const App = () => {
-return <h1>ROUGE.</h1>
+import Nosotros from "./componentes/Nosotros"
+import Accesorios from "./componentes/Accesorios"
+import Compromisosostenible from "./componentes/Compromisosostenible"
+import Indumentaria from "./componentes/Indumentaria"
+function App () {
+  console.log(window.location)
+return <Navbar />
+
 }
-<div>
-  Navbar
-</div>
 export default App

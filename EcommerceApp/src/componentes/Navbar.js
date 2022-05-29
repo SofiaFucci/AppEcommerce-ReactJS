@@ -1,6 +1,22 @@
-const Navbar = () => {
-    return
-    <nav>
-        <button>E-SHOP</button>
-    </nav>
+export default function Navbar () {
+return (
+    <nav className="nav">
+
+<ul>
+<li>
+    <a href="nosotros">Nosotros</a>
+    </li>
+    <li>
+    <a href="indumentaria">Indumentaria</a>
+    </li>
+
+    <li>
+    <a href="accesorios">Accesorios</a>
+    </li>
+    <li>
+    <a href="sustainability">Compromiso sostenible</a>
+</li>
+</ul>
+</nav>
+)
 }
