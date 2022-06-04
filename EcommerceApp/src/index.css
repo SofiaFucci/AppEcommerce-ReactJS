@@ -21,7 +21,13 @@ h1 {
   color: rgb(175, 20, 20);
 opacity: 170%;
 }
-
+h6{
+  color: rgb(175, 20, 20);
+  text-size-adjust: 1cm;
+  text-align: justify;
+  font-weight:lighter;
+  padding: 2cm;
+}
 .nav {
   background-color: rgba(246, 243, 227, 0.768);
   opacity: 170%;
@@ -33,7 +39,7 @@ opacity: 170%;
   border-width: 1rem;
 
   border-style: solid;
-  border-color: rgb(255, 239, 216);
+  border-color: rgba(246, 243, 227, 0.768) ;
 
 }
 
@@ -64,6 +70,6 @@ text-decoration: none;
 }
 
 nav li:hover {
-  background-color: rgb(254, 237, 212);
+  background-color: rgb(255, 239, 216);
 }
 

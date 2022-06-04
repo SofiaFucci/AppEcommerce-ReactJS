@@ -1,0 +1,25 @@
+* {
+
+    padding: 0;
+
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+ul{
+    padding: 5px 10px 5px 10px;
+  margin: 2px;
+  display:inline-block;
+  width: 200px;
+  text-align: center;
+    font-weight: 700;
+    image-orientation: from-image;
+    display: table-row-group;
+align-items: center;
+}
+div{
+    display: inline-block;
+}
+#contenedor{
+text-align: center;
+}

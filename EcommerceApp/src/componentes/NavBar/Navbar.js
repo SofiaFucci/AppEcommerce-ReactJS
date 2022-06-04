@@ -1,4 +1,6 @@
 
+
+
 const NavBar = () => {
 
     return (
@@ -20,6 +22,7 @@ const NavBar = () => {
     <a href="sustainability">Compromiso sostenible</a>
 </li>
 </ul>
+
 </nav>
 )
 }

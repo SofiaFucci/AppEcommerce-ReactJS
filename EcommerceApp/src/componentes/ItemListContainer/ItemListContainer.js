@@ -2,7 +2,6 @@ import './ItemListContainer.css'
 import { useState, useEffect } from 'react'
 import { getProducts } from '../../asynmock'
 import ItemList from '../ItemList/ItemList'
-import NavBar from '../NavBar/Navbar'
 
 function ItemListContainer(props) {
     const [products, setProducts] = useState([])
@@ -21,9 +20,11 @@ function ItemListContainer(props) {
     //     )
     // })
     return (
-        <div>
+        <div id='contenedor'>
             <h1 className='Titulo'>{props.greeting}</h1>
+            <ul>
             <ItemList products={products} />
+        </ul>
         </div>
     )
 }
