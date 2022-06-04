@@ -1,4 +1,5 @@
-export default function Navbar () {
+
+const NavBar = () => {
 
     return (
 
@@ -22,3 +23,4 @@ export default function Navbar () {
 </nav>
 )
 }
+export default NavBar

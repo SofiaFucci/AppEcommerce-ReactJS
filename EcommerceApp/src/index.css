@@ -60,7 +60,7 @@ align-items: center;
   padding: 1rem;
 font-variant: normal;
 font-family: sans-serif;
-
+text-decoration: none;
 }
 
 nav li:hover {

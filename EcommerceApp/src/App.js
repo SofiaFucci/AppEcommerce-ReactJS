@@ -1,11 +1,12 @@
-import Navbar from "./componentes/Navbar"
-import Nosotros from "./componentes/Nosotros"
-import Accesorios from "./componentes/Accesorios"
-import Compromisosostenible from "./componentes/Compromisosostenible"
-import Indumentaria from "./componentes/Indumentaria"
-function App () {
+import React, {useState} from "react"
+import'./App.css';
+import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
+import Navbar from "./componentes/NavBar/Navbar"
+
+function App() {
   console.log(window.location)
-return <Navbar />
+  return <Navbar / >
 
 }
-export default App
+
+export default App;
