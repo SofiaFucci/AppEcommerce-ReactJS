@@ -1,13 +1,15 @@
 export default function Navbar () {
-return (
-    <nav className="nav">
+
+    return (
+
+<nav className="nav">
 
 <ul>
 <li>
     <a href="nosotros">Nosotros</a>
     </li>
     <li>
-    <a href="indumentaria">Indumentaria</a>
+    <a href="Vestidos">Vestidos</a>
     </li>
 
     <li>
