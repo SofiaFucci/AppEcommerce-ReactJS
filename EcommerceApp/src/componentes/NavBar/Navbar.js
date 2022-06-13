@@ -1,3 +1,4 @@
+import { Link,NavLink } from "react-router-dom"
 
 
 
@@ -7,6 +8,7 @@ const NavBar = () => {
 
 <nav className="nav">
 
+<div className="Categorias">
 <ul>
 <li>
     <a href="nosotros">Nosotros</a>
@@ -20,9 +22,11 @@ const NavBar = () => {
     </li>
     <li>
     <a href="sustainability">Compromiso sostenible</a>
+    
+          
 </li>
 </ul>
-
+</div>
 </nav>
 )
 }
